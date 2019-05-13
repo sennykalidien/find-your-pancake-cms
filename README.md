@@ -1,2 +1,2 @@
-# find-your-pancake-cms
-Find Your Pancake
+# Find Your Pancake - CMD
+CMS: Strapi
