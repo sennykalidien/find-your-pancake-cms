@@ -1,2 +1,3 @@
-# Find Your Pancake - CMD
-CMS: Strapi
+# cms
+
+A quick description of cms.

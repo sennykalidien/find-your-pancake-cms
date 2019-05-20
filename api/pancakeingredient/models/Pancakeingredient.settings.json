@@ -1,0 +1,21 @@
+{
+  "connection": "default",
+  "collectionName": "pancakeingredients",
+  "info": {
+    "name": "pancakeingredient",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "comment": ""
+  },
+  "attributes": {
+    "pancake": {
+      "model": "pancake"
+    },
+    "ingredient": {
+      "model": "ingredient"
+    }
+  }
+}

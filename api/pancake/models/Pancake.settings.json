@@ -1,0 +1,34 @@
+{
+  "connection": "default",
+  "collectionName": "pancakes",
+  "info": {
+    "name": "pancake",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "comment": ""
+  },
+  "attributes": {
+    "title": {
+      "default": "New pancake",
+      "required": true,
+      "type": "string"
+    },
+    "pancaketype": {
+      "model": "pancaketype"
+    },
+    "description": {
+      "type": "text"
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload"
+    },
+    "persons": {
+      "type": "integer"
+    }
+  }
+}

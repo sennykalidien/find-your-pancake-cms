@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/pancakes",
+      "handler": "Pancake.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/pancakes/count",
+      "handler": "Pancake.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/pancakes/:id",
+      "handler": "Pancake.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/pancakes",
+      "handler": "Pancake.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/pancakes/:id",
+      "handler": "Pancake.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/pancakes/:id",
+      "handler": "Pancake.destroy",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "connection": "default",
+  "collectionName": "pancaketypes",
+  "info": {
+    "name": "pancaketype",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "comment": ""
+  },
+  "attributes": {
+    "description": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/pancakeingredients",
+      "handler": "Pancakeingredient.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/pancakeingredients/count",
+      "handler": "Pancakeingredient.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/pancakeingredients/:id",
+      "handler": "Pancakeingredient.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/pancakeingredients",
+      "handler": "Pancakeingredient.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/pancakeingredients/:id",
+      "handler": "Pancakeingredient.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/pancakeingredients/:id",
+      "handler": "Pancakeingredient.destroy",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
